@@ -82,7 +82,7 @@ def get_character(identifier):
                 "Png Image": character["Png Image"]
             })
     
-    return jsonify({"error": "Character not found"}), 404
+    return jsonify({"error": "Character info not found"}), 404
 
 if __name__ == '__main__':
     app.run(debug=True)
